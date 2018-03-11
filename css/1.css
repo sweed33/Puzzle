@@ -1,0 +1,36 @@
+*{ 
+	list-style-type:none;
+	text-decoration:none;
+	margin:0px;
+	padding:0px;
+
+}
+body{
+	background:#9CA0DE;
+}
+article{
+	width:410px;
+	height:400px;
+	margin-left: 37%;
+	margin-top:20px;
+	display:block;
+}
+img{
+	width:100px;
+	height:100px;
+	margin-top: -5px;
+	
+}
+img:not(.fotoFin):hover{/*al pasar por encima de una imagen-!important(que predomine respecto a cualquier valor asignado anteriormente)*/
+	border: 1px solid black !important;
+	-webkit-filter: brightness(150%) !important;
+	margin-top: -10px !important;
+	margin-left: -2px !important;
+}
+.fotoFin{
+	width:400px;
+	height:400px;
+}
+p{
+	margin-left: 37%;
+}
